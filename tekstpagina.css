@@ -1,0 +1,446 @@
+* {
+	font-family: 'Archivo', sans-serif;
+	box-sizing: border-box;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar {
+	position: relative;
+	width: 1000px;
+	padding: 0px;
+	top: 20px;
+}
+
+.navbar, ul li {
+	background-color: #222931;
+	position: relative;
+	display: inline-block;
+	float: left;
+}
+
+.navbar > ul > .dropdown > a {
+	background-color: #FFE719;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.navbar > ul > .dropdown > li {
+	margin: 5px;
+}
+
+.navbar > ul > .dropdown > li:hover {
+	margin: 5px;
+}
+
+.navbar ul li a {
+	background-color: #222931;
+	text-decoration: none;
+	list-style: none;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 15px;
+	letter-spacing: 0.5px;
+}
+
+.navbar ul li a:hover {
+	background-color: #FFE719;
+	text-decoration: none;
+	list-style: none;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 5px;
+	letter-spacing: 0.5px;
+	transition: all 0.3s ease;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar ul li.dropdown ul {
+	position: absolute;
+	padding-left: 0;
+	background-color: #222931;
+	min-width: 150px;
+	left: 0;
+	top: 54px;
+	display: none;
+}
+
+.navbar ul li.dropdown:hover ul {
+	display: block;
+}
+
+
+.base-container {
+	width: 1000px;
+	margin: 0px auto;
+	position: relative;
+}
+
+.logo-image {
+	position: relative;
+	top: 10px;
+	left: 5px;
+}
+
+.header-image {
+	position: absolute;
+	width:100%;
+	top: 90px;
+}
+
+.banner {
+	width: 100%;
+	height: 160px;
+	background-color: #ffe718;
+	position: relative;
+	padding-top: 70px;
+	top: 970px;
+}
+
+h1 {
+	font-size: 25px;
+	font-weight: 5px;
+}
+
+.banner-diensten {
+	position: absolute;
+	display: inline;
+	width: 1000px;
+	top: 590px;
+	left: 0px;
+}
+
+.nieuwbouw {
+	color: #FFE718;
+}
+
+.advies {
+	color: #FFE718;
+}
+
+.regelgeving {
+	color: #FFE718;
+}
+
+.uitleg-nieuwbouw {
+	background-color: #AEB6BE;
+	position: absolute;
+	padding: 10px;
+	width: 238px;
+	bottom: 100px;
+	left: 585px;
+}
+
+.uitleg-advies {
+	background-color: #AEB6BE;
+	position: absolute;
+	padding: 10px;
+	top: 260px;
+	width: 238px;
+	left: 0px;
+}
+
+.uitleg-regelgeving {
+	background-color: #AEB6BE;
+	position: absolute;
+	padding: 10px;
+	width: 248px;
+	left: 578px;
+	top: 260px;
+}
+
+
+.nieuwbouw:hover + .uitleg-nieuwbouw {
+	display: block;
+}
+
+.advies:hover + .uitleg-advies {
+	display: block;
+}
+
+.regelgeving:hover + .uitleg-regelgeving {
+	display: block;
+}
+
+
+.banner-image-1:hover {
+	opacity: 0.4;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);	
+}
+
+.banner-image-2:hover {
+	opacity: 0.4;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);		
+}
+
+.banner-image-3:hover {
+	opacity: 0.4;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);		
+}
+
+
+.banner-image-text-1 {
+	right: 75px;
+	top: 101.2px;
+	position: absolute;
+	text-align: center;
+	font-weight: 5px;
+	font-size: 20px;
+	color: white;
+	display: none;
+}
+
+.banner-image-text-2 {
+	right: 117px;
+	top: 101.2px;
+	position: absolute;
+	text-align: center;
+	font-weight: 5px;
+	font-size: 20px;
+	color: white;
+	display: none;
+}
+
+.banner-image-text-3 {
+	right: 99.5px;
+	top: 101.2px;
+	position: absolute;
+	text-align: center;
+	font-weight: 5px;
+	font-size: 20px;
+	color: white;
+	display: none;
+}
+
+.banner-image-1:hover, .banner-image-text-1 {
+	display: block;
+}
+
+.banner-image-2:hover, .banner-image-text-2 {
+	display: block;
+}
+
+.banner-image-3:hover, .banner-image-text-3 {
+	display: block;
+}
+
+
+.p1 {
+	font-weight: 600;
+	font-size: 25px;
+	display: inline;
+	margin-left: 300px;
+}
+
+.p2 {
+	font-weight: 600;
+	font-size: 16px;
+	display: inline;
+	margin-left: 20px;
+}
+
+.p3 {
+	display: inline;
+	margin-left: 300px;
+	background-color: white;
+	padding: 10px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.p3:hover {
+	color: white;
+	background-color: #222931;	
+}
+
+.a2 {
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	color: black;
+}
+
+.p3:hover .a2 {
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+}
+
+.deals {
+	width: 300px;
+	height: 130px;
+	background-color: #ffe718; 
+	display: inline-block;
+	position: absolute;
+	left: 40px;
+	top: 1380px;
+}
+ 
+.diensten {
+	width: 300px;
+	height: 130px;
+	background-color: #ffe718; 
+	display: inline-block;
+	position: absolute;
+	left: 350px;
+	top: 1380px;
+}
+
+.contact {
+	width: 300px;
+	height: 130px;
+	background-color: #ffe718; 
+	display: inline-block;
+	position: absolute;
+	left: 660px;
+	top: 1380px;
+} 
+
+.deals:hover {
+	opacity: 0.7;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);
+	color: white;
+}
+ 
+.diensten:hover {
+	opacity: 0.7;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);
+	color: white;
+}
+
+.contact:hover {
+	opacity: 0.7;
+	transition: .5s ease;
+	background-color: rgb(0, 18, 18);
+	color: white;
+} 
+.footer-image {
+	position: absolute;
+	top: 1190px;
+	width:100%;
+}
+
+hr {
+	width: 1000px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.bottom-container {
+	background-color: #FFFFFF;
+	position: absolute;
+	top: 1550px;
+}
+
+.fa-toolbox, .fa-envelope {
+	position: absolute;
+	left: 30px;
+	bottom: 40px;
+	width: 50px; 
+}
+
+.deals_icon {
+	position: absolute;
+	left: 30px;
+	bottom: 20px;
+}
+
+.deals_icon:hover {
+	color: white;
+}
+
+.DIENSTEN, .CONTACT {
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	left: 100px;
+	bottom: 60px;
+}
+
+.DEALS {
+	font-weight: bold;
+	font-size: 20px;
+	position: absolute;
+	left: 120px;
+	bottom: 60px;
+}
+
+.p_icon {
+	position: absolute;
+	left: 100px;
+	bottom: 40px;
+}
+
+.p_DEALS_icon {
+	position: absolute;
+	left: 120px;
+	bottom: 40px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.OverOns {
+	width: 500px;
+	display: inline-block;
+	position: absolute;
+	left: 50px;
+}
+
+.footer_contact {
+	width: 350px;
+	display: inline-block;
+	position: absolute;
+	bottom: 100px;
+	left: 650px;
+}
+
+.footer-text {
+	margin-right: 300px;
+}
+
+hr {
+	position: absolute;
+	left: 50px;
+	width: 970px;
+}
+
+.fas {
+	color: gray;
+}
+
+footer {
+	background-color: #222931;
+	position: relative;
+	text-align: right;
+	color: white;
+	top: 1750px; 
+}
+
